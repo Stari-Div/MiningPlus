@@ -1,0 +1,23 @@
+{
+    "pack": {
+        "pack_format": 46,
+	"supported_formats": { "min_inclusive": 42, "max_inclusive": 999 },
+        "description": "\u00a76 Mining+ 1.21.4\u000A\u00A7e\u00A7oMade by STARI"
+    },
+        "overlays": {
+		"entries": [
+			{
+				"formats": {"min_inclusive": 42, "max_inclusive": 55},
+				"directory": "overlay_42"
+			},
+			{
+				"formats": {"min_inclusive": 46, "max_inclusive": 55},
+				"directory": "overlay_46"
+			},
+			{
+				"formats": {"min_inclusive": 53, "max_inclusive": 55},
+				"directory": "overlay_53"
+			}
+		]
+	}
+}
